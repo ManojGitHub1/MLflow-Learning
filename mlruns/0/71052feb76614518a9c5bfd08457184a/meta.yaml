@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/71052feb76614518a9c5bfd08457184a/artifacts
+end_time: 1754822346417
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 71052feb76614518a9c5bfd08457184a
+run_name: inquisitive-mole-479
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754822346322
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/36cc056404194b59911a1d6d8e8a1aa1/artifacts
+end_time: 1754825203314
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36cc056404194b59911a1d6d8e8a1aa1
+run_name: dashing-grouse-999
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754825202716
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/330339354661353851/81e5c1cc053c482f8148232537485844/artifacts
+end_time: 1754825621391
+entry_point_name: ''
+experiment_id: '330339354661353851'
+lifecycle_stage: active
+run_id: 81e5c1cc053c482f8148232537485844
+run_name: stately-hare-736
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754825620817
+status: 3
+tags: []
+user_id: HP
