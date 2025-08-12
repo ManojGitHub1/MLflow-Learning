@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Downloads/ML/MLflow-Learning/mlruns/854645321895954506/03f8b07a3f6f4ea296560f52abf03525/artifacts
+end_time: 1755002000009
+entry_point_name: ''
+experiment_id: '854645321895954506'
+lifecycle_stage: active
+run_id: 03f8b07a3f6f4ea296560f52abf03525
+run_name: delicate-rat-271
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755001999871
+status: 3
+tags: []
+user_id: HP

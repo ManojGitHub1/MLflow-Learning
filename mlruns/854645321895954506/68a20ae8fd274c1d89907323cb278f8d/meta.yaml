@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Downloads/ML/MLflow-Learning/mlruns/854645321895954506/68a20ae8fd274c1d89907323cb278f8d/artifacts
+end_time: 1755001999862
+entry_point_name: ''
+experiment_id: '854645321895954506'
+lifecycle_stage: active
+run_id: 68a20ae8fd274c1d89907323cb278f8d
+run_name: adventurous-lynx-146
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755001999751
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Downloads/ML/MLflow-Learning/mlruns/854645321895954506/fa18fd02634a4203a203a2724762c477/artifacts
+end_time: 1755001999261
+entry_point_name: ''
+experiment_id: '854645321895954506'
+lifecycle_stage: active
+run_id: fa18fd02634a4203a203a2724762c477
+run_name: skittish-lark-405
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755001999032
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/HP/Downloads/ML/MLflow-Learning/mlruns/854645321895954506/models/m-439971d698454620b06e20413d75f605/artifacts
+creation_timestamp: 1755002000462
+experiment_id: '854645321895954506'
+last_updated_timestamp: 1755002008159
+model_id: m-439971d698454620b06e20413d75f605
+model_type: null
+name: random_forest
+source_run_id: b27884b8a466427aa9233e578049ee51
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Downloads/ML/MLflow-Learning/mlruns/854645321895954506/146816634ada45d7b6bd01e5c95bcdc8/artifacts
+end_time: 1755001998083
+entry_point_name: ''
+experiment_id: '854645321895954506'
+lifecycle_stage: active
+run_id: 146816634ada45d7b6bd01e5c95bcdc8
+run_name: resilient-boar-302
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755001997896
+status: 3
+tags: []
+user_id: HP

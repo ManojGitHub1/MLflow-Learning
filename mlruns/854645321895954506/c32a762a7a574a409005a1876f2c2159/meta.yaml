@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Downloads/ML/MLflow-Learning/mlruns/854645321895954506/c32a762a7a574a409005a1876f2c2159/artifacts
+end_time: 1755001999743
+entry_point_name: ''
+experiment_id: '854645321895954506'
+lifecycle_stage: active
+run_id: c32a762a7a574a409005a1876f2c2159
+run_name: indecisive-kite-964
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755001999581
+status: 3
+tags: []
+user_id: HP
