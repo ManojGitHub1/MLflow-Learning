@@ -49,7 +49,7 @@ with mlflow.start_run():
 
     # create confusion matrix
     cm = confusion_matrix(y_test, y_pred)
-    plt.figure(figsize=(7, 4))
+    plt.figure(figsize=(10, 7))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=wine.target_names, yticklabels=wine.target_names)
     plt.title('Confusion Matrix')
     plt.xlabel('Predicted')

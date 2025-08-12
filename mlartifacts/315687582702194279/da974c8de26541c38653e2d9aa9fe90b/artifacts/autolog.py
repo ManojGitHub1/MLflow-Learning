@@ -6,8 +6,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
 # Load the dataset
 wine = load_wine()
@@ -21,14 +21,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.10, random
 max_depth = 12
 n_estimators = 10
 
-
-# Mention your experiment name
-# mlflow.set_experiment(experiment_name="mlflow-learning")
-# or mlflow.set_experiment(experiment_id="1")
-# or
-# wiht mlflow.start_run(experiment_id="1"):
-
-mlflow.set_experiment(experiment_name="testing-set_experiment")
+mlflow.autolog()
+mlflow.set_experiment(experiment_name="testing-set_experiment2")
 # Start MLflow run
 with mlflow.start_run():
     # Train the model
@@ -42,11 +36,6 @@ with mlflow.start_run():
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Accuracy: {accuracy}")
 
-    # Log parameters and metrics
-    mlflow.log_metric("accuracy", accuracy)
-    mlflow.log_param("max_depth", max_depth)
-    mlflow.log_param("n_estimators", n_estimators)
-
     # create confusion matrix
     cm = confusion_matrix(y_test, y_pred)
     plt.figure(figsize=(7, 4))
@@ -59,7 +48,6 @@ with mlflow.start_run():
     plt.savefig("confusion_matrix.png")
 
     # log artifact using mlflow
-    mlflow.log_artifact("confusion_matrix.png")
     mlflow.log_artifact(__file__)
 
     # tags
@@ -67,9 +55,6 @@ with mlflow.start_run():
         "Author": "Manoj jivanagi",
         "Project": "Wine Quality Prediction",
     })
-
-    # Log the model
-    mlflow.sklearn.log_model(model, "RandomForestClassifier")
     
 
 

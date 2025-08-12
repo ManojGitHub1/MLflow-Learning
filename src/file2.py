@@ -6,7 +6,11 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+
+import dagshub
+dagshub.init(repo_owner='ManojGitHub1', repo_name='MLflow-Learning', mlflow=True)
+
+mlflow.set_tracking_uri("https://dagshub.com/ManojGitHub1/MLflow-Learning.mlflow")
 
 
 # Load the dataset
@@ -22,13 +26,7 @@ max_depth = 12
 n_estimators = 10
 
 
-# Mention your experiment name
-# mlflow.set_experiment(experiment_name="mlflow-learning")
-# or mlflow.set_experiment(experiment_id="1")
-# or
-# wiht mlflow.start_run(experiment_id="1"):
-
-mlflow.set_experiment(experiment_name="testing-set_experiment")
+mlflow.set_experiment(experiment_name="testing-set_experiment2")
 # Start MLflow run
 with mlflow.start_run():
     # Train the model
@@ -69,7 +67,10 @@ with mlflow.start_run():
     })
 
     # Log the model
-    mlflow.sklearn.log_model(model, "RandomForestClassifier")
+    # mlflow.sklearn.log_model(model, "RandomForestClassifier")
+    # Dagshub only supports mlflow version 2.0.0 and below
+    mlflow.sklearn.log_model(model, artifact_path="RandomForestClassifier")
+
     
 
 

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/330339354661353851/228880fdf09d4d14ba84babb0043888d/artifacts
+end_time: 1754932925829
+entry_point_name: ''
+experiment_id: '330339354661353851'
+lifecycle_stage: active
+run_id: 228880fdf09d4d14ba84babb0043888d
+run_name: bittersweet-kit-324
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754932920865
+status: 3
+tags: []
+user_id: HP
